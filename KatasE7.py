@@ -1,0 +1,5 @@
+def tuplas_a_strings(lista_tuplas):
+    # Convertimos cada tupla a su representación en string
+    return list(map(str, lista_tuplas))
+
+if __name__ == "__main__": print(tuplas_a_strings([(1, 2), (3, 4)]))
