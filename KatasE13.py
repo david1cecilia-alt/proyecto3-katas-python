@@ -1,3 +1,7 @@
+# Ejercicio 13:
+# Esta función genera una lista de tuplas con cada carácter
+# en mayúsculas y minúsculas sin repetir letras.
+
 def transformar_caracteres(caracteres):
     # Set elimina repetidos, luego map crea las tuplas
     unicos = set(caracteres)

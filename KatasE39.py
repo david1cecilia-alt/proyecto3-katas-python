@@ -1,3 +1,7 @@
+# Ejercicio 39:
+# Esta función calcula el área de distintas figuras
+# geométricas según los parámetros recibidos.
+
 import math
 def calcular_area(figura, datos):
 

@@ -1,3 +1,7 @@
+# Ejercicio 36:
+# Esta función procesa un texto permitiendo contar,
+# reemplazar o eliminar palabras según la opción indicada.
+
 def contar_palabras(texto):
     palabras = texto.split()
     frecuencias = {}

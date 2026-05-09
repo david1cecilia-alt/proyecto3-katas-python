@@ -1,3 +1,7 @@
+# Ejercicio 35:
+# Esta clase representa un usuario bancario
+# con operaciones de retirar, transferir y agregar dinero.
+
 class UsuarioBanco:
     def __init__(self, nombre, saldo, cuenta_corriente):
         self.nombre = nombre

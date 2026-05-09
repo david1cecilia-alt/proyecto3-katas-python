@@ -1,3 +1,8 @@
+# Ejercicio 10:
+# Esta función calcula el promedio de una lista de números.
+# Si la lista está vacía, lanza una excepción personalizada.
+
+
 class ListaVaciaError(Exception):
     pass
 

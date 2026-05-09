@@ -1,3 +1,7 @@
+# Ejercicio 40:
+# Este programa calcula el precio final de una compra
+# aplicando un descuento si el usuario tiene un cupón válido.
+
 def simulador_compra():
     try:
         precio = float(input("Precio original: "))

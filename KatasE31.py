@@ -1,3 +1,9 @@
+# Ejercicio 31:
+# Esta función solicita nombres al usuario
+# y busca un nombre específico en la lista.
+# Si no existe, lanza una excepción.
+
+
 def buscar_nombre():
     nombres = input("Ingresa nombres separados por comas: ").split(",")
     nombres = [n.strip() for n in nombres]

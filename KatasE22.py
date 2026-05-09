@@ -1,3 +1,7 @@
+# Ejercicio 22:
+# Este ejercicio usa reduce() para calcular
+# el producto total de una lista numérica.
+
 from functools import reduce
 def producto_total(lista):
     if not lista:

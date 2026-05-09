@@ -1,3 +1,7 @@
+# Ejercicio 14:
+# Esta función devuelve las palabras de una lista
+# que comienzan con una letra específica usando filter().
+
 def filtrar_por_letra(lista, letra):
     return list(filter(lambda p: p.lower().startswith(letra.lower()), lista))
 

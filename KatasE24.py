@@ -1,3 +1,7 @@
+# Ejercicio 24:
+# Esta función calcula la diferencia acumulada
+# de los elementos de una lista usando reduce().
+
 from functools import reduce
 def diferencia_total(lista):
     if not lista:

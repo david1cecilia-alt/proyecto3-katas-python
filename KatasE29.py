@@ -1,3 +1,7 @@
+# Ejercicio 29:
+# Esta función convierte un valor en string
+# y enmascara todos los caracteres excepto los últimos cuatro.
+
 def enmascarar(valor):
     s = str(valor)
     if len(s) <= 4:

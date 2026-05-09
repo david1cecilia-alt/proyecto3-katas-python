@@ -1,3 +1,7 @@
+# Ejercicio 23:
+# Este ejercicio concatena una lista de palabras
+# usando reduce().
+
 from functools import reduce
 def concatenar_palabras(lista):
     if not lista:

@@ -1,3 +1,7 @@
+# Ejercicio 38:
+# Este programa convierte una calificación numérica
+# en una descripción textual.
+
 def calificacion_texto(nota):
     if 0 <= nota <= 69: return "insuficiente"
     elif 70 <= nota <= 79: return "bien"

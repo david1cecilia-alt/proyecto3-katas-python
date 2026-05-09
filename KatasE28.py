@@ -1,3 +1,7 @@
+# Ejercicio 28:
+# Esta función busca y devuelve
+# el primer elemento duplicado de una lista.
+
 def primer_duplicado(lista):
     vistos = set()
     for item in lista:

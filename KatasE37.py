@@ -1,3 +1,8 @@
+
+# Ejercicio 37:
+# Este programa determina si es de día, tarde o noche
+# según la hora ingresada por el usuario.
+
 def momento_del_dia():
 
     try:

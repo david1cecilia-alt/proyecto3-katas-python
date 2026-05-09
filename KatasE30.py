@@ -1,3 +1,6 @@
+# Ejercicio 30:
+# Esta función determina si dos palabras
+# son anagramas.
 
 def es_anagrama(palabra1, palabra2):
     p1 = palabra1.replace(" ", "").lower()

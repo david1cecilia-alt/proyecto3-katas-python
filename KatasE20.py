@@ -1,3 +1,6 @@
+# Ejercicio 20:
+# Este ejercicio usa filter() para obtener únicamente
+# los valores enteros de una lista mixta.
 
 def solo_enteros(lista):
     # Evita incluir booleanos (True/False)

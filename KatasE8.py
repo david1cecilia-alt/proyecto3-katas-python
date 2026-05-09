@@ -1,3 +1,8 @@
+# Ejercicio 8:
+# Este programa solicita dos números al usuario,
+# intenta dividirlos y maneja errores como división por cero
+# o entradas no numéricas.
+
 def division_segura():
     try:
         n1 = float(input("Introduce el primer número: "))
@@ -9,4 +14,5 @@ def division_segura():
     except ZeroDivisionError:
         print("Error: No se puede dividir por cero.")
 
-        if __name__ == "__main__": division_segura()
+if __name__ == "__main__":
+    division_segura()

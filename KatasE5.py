@@ -1,3 +1,8 @@
+# Ejercicio 5:
+# Esta función calcula la media de una lista de números
+# y devuelve una tupla con la media y el estado
+# ("aprobado" o "suspenso").
+
 def calcular_estado(lista_notas, nota_aprobado=5):
     if not lista_notas: return (0, "suspenso")
     media = sum(lista_notas) / len(lista_notas)

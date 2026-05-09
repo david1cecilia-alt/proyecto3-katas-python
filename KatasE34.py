@@ -1,3 +1,7 @@
+# Ejercicio 34:
+# Esta clase representa un árbol con tronco y ramas,
+# permitiendo modificar y consultar su estructura.
+
 class Arbol:
     def __init__(self):
         self.tronco = 1

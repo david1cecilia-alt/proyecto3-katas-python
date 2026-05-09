@@ -1,3 +1,8 @@
+# Ejercicio 27:
+# Esta función calcula el promedio
+# de una lista de números.
+
+
 def promedio(lista):
     return sum(lista) / len(lista) if lista else 0
 
